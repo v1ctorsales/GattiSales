@@ -1,6 +1,14 @@
 body{
 }
 
+table{
+    width: 100%;
+}
+
+th{
+    width: 20%;
+}
+
 #sec_computadores{
     height: 90%;
     width: 100%;
@@ -217,3 +225,4 @@ img {
 .indexo{
     background-color: black;
 }
+

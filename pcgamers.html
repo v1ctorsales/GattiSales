@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <script src="https://kit.fontawesome.com/1da5e67fc7.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GattiSales</title>
@@ -48,7 +50,7 @@
                     <li class="list-group-item"><h6 class="card-text"><i class="fa-regular fa-hard-drive "></i> Armazenamento: SSD 240gb</h6></li>
                  </ul>    
                  <h2 class="price">R$1900</h2>   
-              <div class="botaomaisnfo"><a href="#" class="btn btn-primary btn-lg"><i class="fa-solid fa-plus"></i> Saiba Mais</a></div>
+              <div class="botaomaisnfo"><a href="#" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i class="fa-solid fa-plus"></i> Saiba Mais</a></div>
             </div>
           </div>
           <div class="card col-lg-3 col-md-4">
@@ -94,10 +96,124 @@
               <div class="botaomaisnfo"><a href="#" class="btn btn-primary btn-lg"><i class="fa-solid fa-plus"></i> Saiba Mais</a></div>
             </div>
           </div>
-          
-
         </div>
 
     </sectiotn>
+
+    <!--Modals-->
+    <div class="modal fade modal-dialog modal-xl" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="staticBackdropLabel">PC Gamer - Essential </h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <h5><i class="fa-solid fa-wrench"></i> Informações técnicas</h5>
+            <table>
+              <tr>
+                <th>Processador:</th>
+                <td>Intel i3-6100, 3.70GHz</td>
+              </tr>
+              <tr>
+                <th>Memória:</th>
+                <td>8gb DDR4 2400mhz</td>
+              </tr>
+              <tr>
+                <th>Placa de vídeo:</th>
+                <td>NVIDIA GEFORCE GT 710 2GB DDR3</td>
+              </tr>
+                <tr>
+                <th>Armazenamento:</th>
+                <td>SSD KINGSTON A400 240GB SATA 3 2.5</td>
+              </tr>
+                <tr>
+                <th>Placa Mãe:</th>
+                <td>Placa-Mãe ASUS TUF Gaming - H310M-Plus Gaming</td>
+              </tr>
+                  <tr>
+                <th>Fonte:</th>
+                <td>Gigabyte GP-P450B, 450W, 80 Plus Bronze</td>
+              </tr>
+                <tr>
+                <th>Gabinete:</th>
+                <td>TGT G200</td>
+              </tr>
+            </table>
+            <h5>
+              <br><i class="fa-solid fa-chart-simple"></i> Desempenho</h5>
+   <table>
+  <tr>
+    <th>CSGO</th>
+    <td><div class="w3-container">
+<div class="w3-border">
+  <div class="w3-green" style="height:24px;width:100%"></div>
+</div></div></td>
+  </tr>
+  <tr>
+    <th>FIFA23</th>
+    <td>
+    <div class="w3-container">
+    <div class="w3-border">
+  <div class="w3-green" style="height:24px;width:67%"></div>
+</div></div></td>
+  </tr>
+  <tr>
+    <th>Fortnite</th>
+        <td>
+    <div class="w3-container">
+    <div class="w3-border">
+  <div class="w3-green" style="height:24px;width:65%"></div>
+</div></div></td>
+  </tr>
+   <tr>
+    <th>FreeFire</th>
+        <td>
+    <div class="w3-container">
+    <div class="w3-border">
+  <div class="w3-green" style="height:24px;width:100%"></div>
+</div></div></td>
+   <tr>
+    <th>GTA V</th>
+        <td>
+    <div class="w3-container">
+    <div class="w3-border">
+  <div class="w3-green" style="height:24px;width:67%"></div>
+</div></div></td>
+  </tr>
+   <tr>
+    <th>League Of Legends</th>
+        <td>
+    <div class="w3-container">
+    <div class="w3-border">
+  <div class="w3-green" style="height:24px;width:97%"></div>
+</div></div></td>
+   <tr>
+    <th>Minecraft</th>
+        <td>
+    <div class="w3-container">
+    <div class="w3-border">
+  <div class="w3-green" style="height:24px;width:100%"></div>
+</div></div></td>
+  </tr>
+  </tr>
+     <tr>
+    <th>Valorant</th>
+        <td>
+    <div class="w3-container">
+    <div class="w3-border">
+  <div class="w3-green" style="height:24px;width:85%"></div>
+</div></div></td>
+  </tr>
+</table>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
 </body>
 </html>
