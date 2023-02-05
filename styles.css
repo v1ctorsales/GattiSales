@@ -40,6 +40,10 @@ th{
 text-align: center;
 margin: 5%;
 }
+
+.navbar-left{
+    margin-left: 40px;
+}
 #navbarNav{
     margin-right: 10%;
 }
