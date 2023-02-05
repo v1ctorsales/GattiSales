@@ -1,6 +1,13 @@
 body{
 }
 
+a{
+    text-decoration: none!important;
+}
+.afooter:hover{
+    color: rgb(197, 197, 197)!important;
+}
+
 table{
     width: 100%;
 }
@@ -8,6 +15,11 @@ table{
 th{
     width: 20%;
 }
+
+footer{
+    height: 3vh;
+}
+
 
 #sec_computadores{
     height: 90%;
@@ -215,7 +227,7 @@ img {
 .butonestilo{
 
     padding: 11px 0;
-    width: 70%;
+    width: 100%;
     text-align: center;
     border-radius: 50px;
     display: inline-block;
@@ -230,3 +242,6 @@ img {
     background-color: black;
 }
 
+.textofooter {
+    padding: 2px!important;
+}
