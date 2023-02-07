@@ -259,77 +259,46 @@ img {
     padding: 2px!important;
 }
 
-.demo
-{
-	padding: 100px 0;
-}
-.heading-title
-{
-	margin-bottom: 100px;
-}
-.serviceBox{
-    padding: 30px 30px 30px 90px;
-    background: #f8f8f8;
-    color: #333;
-    overflow: hidden;
-    position: relative;
-    transition: all 0.3s ease-in-out 0s;
-}
+.card-deck {
+    margin-top: 10rem;
 
-.serviceBox:hover{
-    background: #1568f3;
-    color: #fff;
-}
-
-.serviceBox:after{
-    content: "";
-    display: block;
-    border-top: 500px solid #fff;
-    border-left: 500px solid transparent;
-    margin-top: -55%;
-    margin-left: 100%;
-    opacity: 0;
+  }
+  
+  .card-home {
+    background-image: url("https://cdn.shopify.com/s/files/1/0408/5792/7834/files/redux-bg-A-4_522x.jpg") !important;
+    color: white !important;
+  }
+  
+  .cards-icons {
+    background: -webkit-linear-gradient(#5ea7eb, #438dd1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: -10%;
+  }
+  
+  .cards-equipos {
+    background-image: url("https://cdn.shopify.com/s/files/1/0408/5792/7834/files/Better_400x.jpg") !important;
+    color: white !important;
+  }
+  
+  .my__img {
+    height: 120px;
+    width: 120px;
     position: absolute;
-    transform: scale(2);
-    transition: all 0.3s ease-in-out 0s;
-}
-
-.serviceBox:hover:after{
-    margin-left: 0;
-    opacity: 0.1;
-}
-
-.serviceBox .service-icon{
-    font-size: 50px;
-    color: #1568f3;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .custom__button {
     position: absolute;
-    top: 40px;
-    left: 20px;
-    transition:all 0.3s ease-in-out 0s;
-}
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: -33px;
+  }
 
-.serviceBox:hover .service-icon{
-    color: #fff;
-}
-
-.serviceBox .title{
-    font-size: 22px;
-    font-weight: 700;
-    margin: 0 0 12px 0;
-    text-transform: capitalize;
-}
-
-.serviceBox .description{
-    font-size: 15px;
-    line-height: 25px;
-    margin: 0;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-.serviceBox:hover .description{
-    color: #fff;
-}
-
-@media only screen and (max-width: 990px){
-    .serviceBox{ margin-bottom: 15px; }
-}
+  .iconservico{
+    text-align: center;
+    margin: 5% 0;
+  }
