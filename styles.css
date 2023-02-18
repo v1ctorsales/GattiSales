@@ -372,3 +372,133 @@ i {
     transform: translate(-0%, -380%);
     transition-timing-function: ease
 }   
+
+@media (max-width: 1800px) {
+    .leftpan {
+        left: -3.5%;
+    }
+}
+
+@media (max-width: 1700px) {
+    .leftpan {
+        left: -3.6%;
+        width: 70%;
+    }
+    .content-area {
+        margin: 35vh 270px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .leftpan {
+        left: -4.6%;
+    }
+    .rightpan{
+        right: -5%;
+    }
+    .rightpan .content-area{
+        margin: 35vh 180px;
+    }
+    .leftpan .content-area{
+        margin: 35vh 180px;
+    }
+
+}
+
+@media (max-width: 1250px) {
+    .leftpan {
+        left: -5.6%;
+    }
+    .content-area {
+        width: 250px;
+    }
+}
+
+@media (max-width: 1150px) {
+    .content-area {
+        margin: 35vh 110px;
+    }
+    .leftpan {
+        width: 103%;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .leftpan{
+    left: -6.5%;
+}
+    .content-area {
+        margin: 35vh 60px;
+    }
+    .rightpan .content-area{
+        margin: 35vh 120px;
+    }
+    .leftpan .content-area{
+        margin: 35vh 120px;
+    }
+}
+
+@media (max-width: 800px) {
+    .leftpan{
+        left: -7.5%;
+    }
+    .content-area {
+        margin: 35vh 95px;
+        width: 210px;
+    }
+    .rightpan .content-area{
+        margin: 35vh 100px;
+    }
+    .leftpan .content-area{
+        margin: 35vh 130px;
+    }
+}
+
+@media (max-width: 700px) {
+    .leftpan{
+        left: -10.5%;
+    }
+    .content-area {
+        margin: 35vh 70px;
+        width: 210px;
+    }
+    .rightpan .content-area{
+        margin: 35vh 80px;
+    }
+    .leftpan .content-area{
+        margin: 35vh 11 0px;
+    }
+    
+}
+
+@media (max-width: 620px) {
+    .content-area {
+        margin: 35vh 70px;
+        width: 210px;
+    }
+    .rightpan .content-area{
+        margin: 35vh 60px;
+    }
+    .leftpan .content-area{
+        margin: 35vh 90px;
+    }
+}
+
+@media (max-width: 560px) {
+    .rightpan .content-area{
+        margin: 35vh 30px;
+    }
+    .leftpan .content-area{
+        margin: 35vh 65px;
+    }
+}
+
+@media (max-width: 500px) {
+    .rightpan .content-area{
+        margin: 35vh 30px;
+    }
+    .leftpan .content-area{
+        margin: 35vh 50px;
+    }
+}
