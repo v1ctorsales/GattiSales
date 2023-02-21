@@ -288,7 +288,7 @@ img {
 
   .iconservico{
     text-align: center;
-    margin: 5% 0;
+    margin: 3% 0;
   }
 
   body {
@@ -360,7 +360,7 @@ img .cards-equipos {
 
 i {
     position: relative;
-    top: 40%;
+    top: 42.5%;
     z-index: 2;
     text-align: center;
     color: #fff;
