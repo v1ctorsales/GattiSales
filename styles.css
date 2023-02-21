@@ -360,7 +360,7 @@ img .cards-equipos {
 
 i {
     position: relative;
-    top: 42.5%;
+    top: 45%;
     z-index: 2;
     text-align: center;
     color: #fff;
@@ -501,4 +501,9 @@ i {
     .leftpan .content-area{
         margin: 35vh 50px;
     }
+}
+
+.cardbg{
+	background-position: center;
+	background-size: cover;
 }
