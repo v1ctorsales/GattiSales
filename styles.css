@@ -19,6 +19,9 @@ th{
 footer{
     height: 3vh;
 }
+h5{
+    font-size: 1rem!important;
+}
 
 
 #sec_computadores{
@@ -37,13 +40,17 @@ footer{
     position: absolute;
 }
 
+.navbar{
+    background-color: #27022b!important;
+}
+
 .minhanavbar{
     padding: 0px 0px;
 }
 
 .textotitulos{
     text-align: center;
-    margin: 1% 0;
+    margin: 1% 0;   
 }
 
 .card{
@@ -501,6 +508,12 @@ i {
     .leftpan .content-area{
         margin: 35vh 50px;
     }
+}
+
+@media (min-width: 576px){
+.modal-dialog{
+max-width: none!important;
+}
 }
 
 .cardbg{
