@@ -40,10 +40,6 @@ h5{
     position: absolute;
 }
 
-.navbar{
-    background-color: #27022b!important;
-}
-
 .minhanavbar{
     padding: 0px 0px;
 }
@@ -512,7 +508,7 @@ i {
 
 @media (min-width: 576px){
 .modal-dialog{
-max-width: none!important;
+max-width: 90%!important;
 }
 }
 
